@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  font-family: 'Open Sans', 'sans-serif';
+  background-color: aqua;
+}
+
+#navbar ul {
+  background-color: lightgray;
+  border-radius: 0px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar li {
+  list-style-type: none;
+  float: left;
+  border-right: 1px solid grey;
+  color: black;
+  padding: 14px 25px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+#project-wrapper{
+  text-align: center;
+  padding: 10px;
+}
+
+.project{
+  overflow: hidden;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 15px;
+  width: 300px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: lightgray;
+}
+
+.project a{
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
